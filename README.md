@@ -1,2 +1,1 @@
 # foolcage.github.io
-foolwriting
