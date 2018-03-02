@@ -1,8 +1,13 @@
 ---
 layout: post
-title:  "财务指标"
-categories: investing
+title:  "fooltrader投资之财务指标"
+categories: investing fooltrader
 ---
+
+搞投资就要明明白白的搞,而所谓估值或者财务分析需要搞明白的问题不外乎:  
+能用的资产有多少(assets)?负债多少(liabilities)?净资产多少(equity,book value)?  
+收入多少(revenue)?支出多少(expense)?利润多少(profit)?  
+
 # 1. 营业利润(operating profit) operatingProfit
 ```
 营业利润=营业收入-营业成本-营业税金及附加-销售费用-管理费用-财务费用-资产减值损失+公允价值变动收益（损失的话用减）+投资收益
