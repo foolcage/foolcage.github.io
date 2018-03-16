@@ -1,14 +1,12 @@
----
-layout: post
-title:  "我的投资理念和开源项目fooltrader"
-categories: investing fooltrader
----
+"要在市场上生存，就必须远离聪明，因为，你的聪明在市场面前一钱不值"------缠中说禅
 
 且说投资理念吧:
 1. 全市场(股票,期货,数字货币,债券等)
 2. 只做"明显的"底部(多),顶部(空)
 3. 基本面,技术面,政策面,资金面结合的"乘法原理"
 4. 分散投资
+
+直接传送[*项目地址*](https://github.com/foolcage/fooltrader)
 
 所以,大部分时间我是在写程序,看书,然后等待"那个点"的出现.
 
@@ -26,10 +24,6 @@ categories: investing fooltrader
 
 好吧,自己撸.爬虫,数据分类,存储,计算,回测,通知......只做我认为最有用的,尽量用现成的成熟组件,然后,就跑起来了......
 
-直接传送[*项目地址*](https://github.com/foolcage/fooltrader)
-
-
-"要在市场上生存，就必须远离聪明，因为，你的聪明在市场面前一钱不值"------缠中说禅
 
 且说开源的目的:
 1. 由于是全品种,爬虫会比较多,希望对此有兴趣的人能够加入进来,一起完善
@@ -40,14 +34,14 @@ categories: investing fooltrader
 ## 自定义分析逻辑和视图
 
 ### 股价利润关系
-![]({{ site.url }}/assets/profit_price.gif)
-![]({{ site.url }}/assets/usa-profit_price.gif)
+![](https://pic1.zhimg.com/v2-7cf1df55cb43d5bef1d30e555a23d67b_b.gif)
+![](https://pic3.zhimg.com/v2-f2f28e62050c895391723798eab47bd5_b.gif)
 
 ### 市场平均PE对比
-![]({{ site.url }}/assets/china-usa-pe.png)
+![](https://pic2.zhimg.com/80/v2-45ad65ec22667918177de091c70cf1de_hd.jpg)
 
 ### 大势dashboard
-![]({{ site.url }}/assets/大势.png)
+![](https://pic4.zhimg.com/v2-3ad31c51e6e2f46f494b4370eff4031c_r.jpg)
 
 ### API使用
 
@@ -116,7 +110,7 @@ def check_operating_profit(security_item):
         else:
             print("{} operating profit calculating pass".format(income_statement['id']))
 ```
-可以用该工具迅速检查财务报表的质量,同时也可以让你对财务报表有更深入的认识.
+可以用该工具迅速检查财务报表的质量,同时也可以让你对财务报表有更深入的认识.[*更多例子*](./fooltrader/datamanager/finance_check.py)
 ```bash
 In [3]: from fooltrader.datamanager import finance_check
 
@@ -276,7 +270,7 @@ class EventTrader(Trader):
 ```
 
 运行策略可以实时查看效果,并做进一步的评估  
-![]({{ site.url }}/assets/trader.gif)
+![](https://pic2.zhimg.com/v2-7ba3adc1ea7cf4bfa2775ac147f56225_b.gif)
 
 最后,说真的:  
 项目会持续做下去,因为我要用......  
