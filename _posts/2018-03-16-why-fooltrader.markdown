@@ -1,3 +1,9 @@
+---
+layout: post
+title:  "我的投资理念和开源项目fooltrader"
+categories: investing fooltrader
+---
+
 且说投资理念吧:
 1. 全市场(股票,期货,数字货币,债券等)
 2. 只做"明显的"底部(多),顶部(空)
